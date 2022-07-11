@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 1800px;
+    width: 1366px;
+}
+
+.header {
+    width: 1366px;
+    height: 80px;
+    background-color: black;
+}
+
+.logo {
+    width: 200px;
+    height: 80px;
+    margin-left: 70px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.menu {
+    width: 600px;
+    height: 80px;
+    margin-top: -80px;
+    margin-left: 700px;
+    display: grid;
+    align-items: center;
+}
+
+.menu_list {
+    width: 500px;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    font: bold 110% 'calibri';
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #1ed760;
+}
+
+.disabled {
+    cursor: default;
+}
+
+.gray {
+    color: rgb(187, 187, 187);
+}
+
+.download_content {
+    width: 1366px;
+    height: 520px;
+    background-color: rgb(25, 230, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download_items {
+    width: 500px;
+    height: 380px;
+}
+
+.laptop {
+    width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download_text {
+    width: 500px;
+    height: 120px;
+    text-align: center;
+}
+
+.download_text h1 {
+    font: bolder 280% 'calibri';
+}
+
+.download_text p {
+    font: normal 100% 'calibri';
+    margin-top: 20px;
+}
+
+.download_btn {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.d_btn {
+    width: 130px;
+    background-color: white;
+    color: black;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font: bold 100% 'calibri';
+    cursor: pointer;
+}
+
+.d_btn:hover {
+    transform: scale(1.05);
+}
+
+.links_content {
+    width: 1366px;
+    height: 310px;
+    display: grid;
+    justify-items: center;
+}
+
+.link_items {
+    height: 310px;
+    width: 650px;
+}
+
+.link_text {
+    width: 650px;
+    height: 170px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.link_text h1 {
+    font: bolder 170% arial black;
+    margin-top: 40px;
+}
+
+.link_text p {
+    font: normal 120% 'calibri'; 
+}
+
+.links {
+    width: 650px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.links img {
+    cursor: pointer;
+}
+
+.account_content {
+    width: 1366px;
+    height: 450px;
+    background-color: #242424;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.account_items {
+    width: 900px;
+    height: 440px; 
+}
+
+.account_img {
+    width: 900px;
+    height: 250px;
+}
+
+.account_img img {
+    margin-top: -130px;
+    margin-left: 130px;
+}
+
+.account_text {
+    font: bold 100% 'arial';
+    color: white;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.list_items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 50px;
+    font: normal 120% 'calibri';
+}
+
+.green {
+    color: #1ed760;
+}
+
+.footer {
+    background-color: black;
+    width: 1366px;
+    height: 480px;
+}
+
+.footer_logo {
+    width: 220px;
+    height: 130px;
+    margin-left: 70px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.footer_menu {
+    width: 500px;
+    height: 300px;
+    margin-left: 300px;
+    margin-top: 70px;
+    position: absolute;
+}
+
+.company {
+    font: normal 120% 'calibri';
+    line-height: 40px;
+    color: white;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.heading {
+    font: bold 100% 'calibri';
+    color: #a8a8a8;
+}
+
+.communities {
+    font: normal 120% 'calibri';
+    line-height: 40px;
+    color: white;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.second {
+    margin-left: 200px;
+    margin-top: -160px;
+}
+
+.third {
+    margin-left: 400px;
+    margin-top: -240px;
+    width: 200px;
+}
+
+.footer_links {
+    color: white;
+    list-style: none;
+    margin-top: 420px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    font: normal 90% 'calibri';
+    margin-left: 100px;
+}
+
+.img_link {
+    cursor: pointer;
+}
